@@ -1,25 +1,32 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>teste para quiz</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Quiz Programmer</title>
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <h1 id = "titulo"> QUIZ Pda</h1>
-    <br>
-    <main>
-    <div class= "content">
-        <div class="perguntas"></div>
-        <div class="respostas1"></div>
-        <div class="respostas2"></div>
-        <div class="respostas3"></div>
-        <div class="respostas4"></div>
-    </div>
+    <main id="contentQuiz">
+        <div id="content">
+            <div class="questions">
+                <h1 class="quest">aqui vai uma pergunta (?)</h1>
+            </div>
+            <div id="answerContent">
+                <div class="firstQuest">
+                    <h2 class="answer">resposta</h2>
+                    <h2 class="answer">resposta</h2>
+                </div>
     
+                <div class="secondQuest">
+                    <h2 class="answer">resposta</h2>
+                    <h2 class="answer">resposta</h2>
+                </div>
+            </div>
+            <div class="btn">
+                <button class="nextBtn">NEXT</button>
+            </div>
+        </div>
     </main>
-    
-    <script src="script.js"></script>
 </body>
 </html>
